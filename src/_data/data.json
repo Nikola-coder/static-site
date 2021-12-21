@@ -2,19 +2,23 @@
     "games": [
         {
             "name": "Horizon - Forbidden west",
-            "image": "horizon-tmb.jpeg"
+            "image": "horizon-tmb.jpeg",
+            "rating": 5.0
         },
         {
             "name": "Ghostwire - tokyo",
-            "image": "ghostwire-tmb.jpeg"
+            "image": "ghostwire-tmb.jpeg",
+            "rating": 3.5
         },
         {
             "name": "Bloodhunt",
-            "image": "bloodhunt-tmb.jpeg"
+            "image": "bloodhunt-tmb.jpeg",
+            "rating": 4.3
         },
         {
             "name": "Eldenring",
-            "image": "eldenring-tmb.jpeg"
+            "image": "eldenring-tmb.jpeg",
+            "rating": 4.7
         }
     ]
 }

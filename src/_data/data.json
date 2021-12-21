@@ -1,0 +1,20 @@
+{
+    "games": [
+        {
+            "name": "Horizon - Forbidden west",
+            "image": "horizon-tmb.jpeg"
+        },
+        {
+            "name": "Ghostwire - tokyo",
+            "image": "ghostwire-tmb.jpeg"
+        },
+        {
+            "name": "Bloodhunt",
+            "image": "bloodhunt-tmb.jpeg"
+        },
+        {
+            "name": "Eldenring",
+            "image": "eldenring-tmb.jpeg"
+        }
+    ]
+}

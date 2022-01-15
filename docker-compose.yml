@@ -4,6 +4,7 @@ services:
     container_name: docker-prototyp
     image: "node:16-alpine"
     ports: [8080:8080]
+    working_dir: /home/node/app
     user: "node"
     volumes:
       - ./:/home/node/app

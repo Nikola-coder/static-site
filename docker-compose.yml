@@ -8,5 +8,6 @@ services:
     user: "node"
     volumes:
       - ./:/home/node/app
+    command: sh -c "npm install && npx eleventy --serve"
 
 

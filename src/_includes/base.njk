@@ -9,7 +9,8 @@
         <title>{{ title }}</title>
     </head>
     <body>
-        <div class="text-light bg-dark container padding-top-100px ">
+        {% include "header.njk" %}
+        <div class="text-light container padding-top-100px ">
             <h1 class="title">{{ title }}</h1>
         </div>
         <div class="content container">{{ content | safe }}</div>

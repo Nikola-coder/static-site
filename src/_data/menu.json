@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Start",
+        "path": "/"
+    },
+    {
+        "name": "Om oss",
+        "path": "/om-oss"
+    },
+    {
+        "name": "Kontakt",
+        "path": "/kontakt"
+    }
+
+
+]

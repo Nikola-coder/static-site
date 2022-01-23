@@ -1,9 +1,4 @@
 
-// Boostrap
-@import "bootstrap/scss/bootstrap.scss";
-// Fontawesome
-@import "@fortawesome/fontawesome-free/scss/brands.scss";
-
 body {
     background-image: url("/img/playstation_logo_buttons_photo_2400.0.jpg");
     background-size: cover;

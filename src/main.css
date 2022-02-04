@@ -28,6 +28,13 @@ body {
   margin-bottom:150px;
 }
 
+.ul-style {
+  text-align:left;
+  max-width:300px;
+  display:inline-block;
+  list-style-type: none;
+}
+
 @media (min-width:990px){
 
   .display-flex {

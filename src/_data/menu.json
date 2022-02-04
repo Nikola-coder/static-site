@@ -4,12 +4,16 @@
         "path": "/"
     },
     {
+        "name": "Spel",
+        "path": "/spel/"
+    },
+    {
         "name": "Om oss",
-        "path": "/om-oss"
+        "path": "/om-oss/"
     },
     {
         "name": "Kontakt",
-        "path": "/kontakt"
+        "path": "/kontakt/"
     }
 
 

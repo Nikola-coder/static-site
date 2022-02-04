@@ -1,0 +1,12 @@
+---
+layout: base
+title: Spel
+---
+
+<div class="container bg-light bg-gradient bg-success p-2 text-dark bg-opacity-75 mt-5 mb-5 rounded-pill padding-100px text-center">
+<ul class="ul-style">
+{% for spel in data.games %}
+    <li>{{ spel.name }}</li>
+{% endfor %}
+</ul>
+</div>

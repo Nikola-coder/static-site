@@ -1,0 +1,11 @@
+---
+layout: base
+pagination:
+    data: data.games
+    size: 1
+    alias: spel
+permalink: "spel/{{ spel.name | slug }}/"
+---
+
+<h1 class="text-light text-center">{{ spel.name }}</h1>
+<p class="text-light text-center">{{ spel.desc }}</p>

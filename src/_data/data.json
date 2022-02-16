@@ -2,25 +2,25 @@
     "games": [
         {
             "name": "Horizon - Forbidden west",
-            "image": "horizon-tmb.jpeg",
+            "image": "horizon-tmb.webp",
             "rating": 5.0,
             "desc": "Följ med Aloy ut i den förbjudna västern, ett dödligt land som döljer mystiska nya hot."
         },
         {
             "name": "Ghostwire - tokyo",
-            "image": "ghostwire-tmb.jpeg",
+            "image": "ghostwire-tmb.webp",
             "rating": 3.5,
             "desc": "Tokyo har intagits av dödliga övernaturliga krafter, styrda av en farlig ockultist som på ett ögonblick har fått stadens hela befolkning att försvinna. Alliera dig med ett mäktigt spektralt väsen som är ute efter hämnd. Bemästra en arsenal med kraftfulla förmågor för att avslöja den mörka sanningen bakom försvinnandena."
         },
         {
             "name": "Bloodhunt",
-            "image": "bloodhunt-tmb.jpeg",
+            "image": "bloodhunt-tmb.webp",
             "rating": 4.3,
             "desc": "Bloodhunt är ett spännande battle royale-spel som är gratis att spela. Det utspelar sig i Prag, mitt i ett skoningslöst krig mellan vampyrklaner. Använd dina övernaturliga krafter för att jaga och överlista dina rivaler och inkvisitionens soldater. Utrusta dig, drick kraftfullt blod för att bli mäktigare, trotsa gravitationen för att attackera från alla håll och härska över natten!"
         },
         {
             "name": "Eldenring",
-            "image": "eldenring-tmb.jpeg",
+            "image": "eldenring-tmb.webp",
             "rating": 4.7,
             "desc": "Stig upp, Tarnished, och låt försynen leda dig att använda kraften hos Elden Ring och bli en Elden Lord i Lands Between."
         }

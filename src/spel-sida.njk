@@ -6,6 +6,8 @@ pagination:
     alias: spel
 permalink: "spel/{{ spel.name | slug }}/"
 ---
-
-<h1 class="text-light text-center">{{ spel.name }}</h1>
+<div class="text-center">
+<h1 class="text-light ">{{ spel.name }}</h1>
+<img class="pt-5 pb-5" src="/img/{{ spel.image }}" alt="{{ spel.name }}">
 <p class="text-light text-center">{{ spel.desc }}</p>
+</div>

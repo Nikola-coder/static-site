@@ -1,4 +1,4 @@
-
+@charset "UTF-8";
 // Boostrap
 @import "bootstrap/scss/bootstrap.scss";
 // Fontawesome
@@ -29,24 +29,36 @@ body {
   padding-top:150px;
 }
 
-.content {
-  margin-bottom:150px;
-}
 
 .ul-style {
   text-align:left;
-  max-width:300px;
+  max-width:400px;
   display:inline-block;
   list-style-type: none;
 }
+
+.font-size-games {
+  font-size: 25px;
+}
+
+.container {
+  margin-bottom:150px !important;
+}
+
+
 
 @media (min-width:990px){
 
   .display-flex {
     display: flex;
-    justify-content: end;
+    justify-content: end !important;
     padding-right: 20px;
   }
+
+  .height-bubble {
+    height: 440px;
+  }
+
 }
 
 @media(max-width:989px) {
@@ -58,6 +70,10 @@ body {
 
 a.nav-link {
   color: black !important;
+}
+
+ul li a {
+  font-size: 20px;
 }
 
 }

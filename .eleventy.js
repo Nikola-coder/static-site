@@ -8,6 +8,13 @@ module.exports = function (eleventyConfig) {
     "node_modules/@fortawesome/fontawesome-free/webfonts": "webfonts",
   });
 
+  //Stars
+  eleventyConfig.addFilter("stars", function (value) {
+    let output = "";
+    for (i = 0; i < Math.floor(value); i++) output += "⭐";
+    return output;
+  });
+
   // Compile Sass
   eleventyConfig.addTemplateFormats("scss");
 

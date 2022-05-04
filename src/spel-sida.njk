@@ -7,7 +7,9 @@ pagination:
 permalink: "spel/{{ spel.name | slug }}/"
 ---
 <div class="text-center">
-<h1 class="text-light ">{{ spel.name }}</h1>
+<h1 class="text-light">{{ spel.name }}</h1>
 <img class="pt-5 pb-5" src="/img/{{ spel.image }}" alt="{{ spel.name }}">
-<p class="text-light text-center">{{ spel.desc }}</p>
+<br>
+<h2 class="text-light pb-3">Rating: <span class="rating-{{ spel.rating | floor }}">{{ spel.rating | stars }}</span></h2>
+<p class="container font-size-games text-light text-center bg-light bg-gradient text-dark bg-opacity-75 mt-5 mb-5 rounded-pill padding-100px text-center">{{ spel.desc }}</p>
 </div>

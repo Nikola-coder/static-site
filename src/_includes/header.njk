@@ -8,11 +8,12 @@
     data-bs-target="#toggleMobileMenu"
     aria-controls="toggleMobileMenu"
     aria-lable="Toggle navigation"
+    aria-expanded="false"
   >
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse d-flex justify-content-center display-flex pe-5" id="toggleMobileMenu">
+  <div class="collapse navbar-collapse display-flex pe-5" id="toggleMobileMenu">
     <ul class="navbar-nav text-center">
 
         {% for item in menu %}
